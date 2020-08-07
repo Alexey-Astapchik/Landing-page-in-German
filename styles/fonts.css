@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?3mld9y');
+  src:  url('../fonts/icomoon.eot?3mld9y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3mld9y') format('truetype'),
+    url('../fonts/icomoon.woff?3mld9y') format('woff'),
+    url('../fonts/icomoon.svg?3mld9y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-quote-right:before {
+  content: "\f10e";
+}
+.icon-location2:before {
+  content: "\e948";
+}
